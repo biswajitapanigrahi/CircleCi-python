@@ -20,7 +20,7 @@ jobs:
     docker:
       - image: cimg/python:3.11
     steps:
-      - run: echo "Deploying to production server"
+      - run: echo "Deploying to production serber"
 
 workflows:
   build_and_test:
@@ -34,5 +34,5 @@ workflows:
           - test
         filters:
           branches:
-            only: master
-            
+            only: main
+
